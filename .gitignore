@@ -1,0 +1,35 @@
+# Build
+/build/
+/out/
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+*.exp
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.vcxproj*
+*.sln
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Models / data (large, never commit)
+/models/
+/data/
+*.gguf
+*.safetensors
+
+# IDE
+/.vs/
+/.vscode/
+/.idea/
